@@ -24,7 +24,7 @@ namespace Androidk
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-		
+			Console.WriteLine ("parm");
 			Console.WriteLine ("parm");
 			Console.WriteLine ("parm");
 
