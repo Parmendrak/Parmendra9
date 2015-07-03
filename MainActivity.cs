@@ -25,7 +25,7 @@ namespace Androidk
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			Console.WriteLine ("parm");
-		
+		        Console.WriteLine ("RK");
 
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
