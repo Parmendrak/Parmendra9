@@ -28,7 +28,7 @@ namespace Androidk
 		        Console.WriteLine ("RK");
 		        Console.WriteLine ("parm");
 		        Console.WriteLine ("Test.....");
-
+                        
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
